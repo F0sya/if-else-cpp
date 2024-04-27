@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
-	int x; cout << "Your number:"; cin >> x;
-	(x == 0) ? cout << "Your number is zero" : (x > 0) ? cout << "Positive integer" << endl : cout << "Negative integer" << endl;
+	int first_num; cout << "First num:"; cin >> first_num;
+	int second_num; cout << "Second num:"; cin >> second_num;
+	(first_num == second_num) ? cout << "Equal" << endl : (first_num > second_num) ? cout << second_num << " " << first_num << endl : cout << first_num << " " << second_num << endl;
 }
